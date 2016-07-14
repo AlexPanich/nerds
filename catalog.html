@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nerds</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:500,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="inner-page">
+  <header class="main-header">
+    <div class="container clearfix">
+      <a class="logo" href="#"><img src="img/logo.png" alt="Nerds" width="139" height="56"></a>
+      <div class="basket">
+        <a href="#"><span class="icon-basket"></span>Корзина</a>
+      </div>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="index.html">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li class="active"><a href="catalog.html">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main-content">
+    <div class="container clearfix">
+      <aside class="filters">
+        <form action="#" method="post">
+
+          <div class="range-filter">
+            <div class="range-filter-title">Стоимость:</div>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar" style="width:70%"></div>
+              </div>
+              <div class="toogle min-toggle"></div>
+              <div class="toogle max-toggle"></div>
+            </div>
+            <div class="price-controls clearfix">
+              <label>от
+                <input type="text" class="min-price" name="min-price" value="0">
+              </label>
+              <label>
+                до
+                <input type="text" class="max-price" name="max-price" value="15 000">
+              </label>
+            </div>
+          </div>
+          <div class="grid-filter">
+            <div class="grid-filter-title">Сетка:</div>
+            <input type="radio" name="grid" value="adaptive" id="adaptive">
+            <label for="adaptive">Адаптивная</label>
+            <input type="radio" name="grid" value="fixed" id="fixed">
+            <label for="fixed">Фиксированная</label>
+            <input type="radio" name="grid" value="response" id="response">
+            <label for="response">Резиновая</label>
+          </div>
+          <div class="features-filter">
+            <div class="features-filter-title">Особенности:</div>
+            <input type="checkbox" name="slider" id="slider">
+            <label for="slider">Слайдер</label>
+            <input type="checkbox" name="features" id="features">
+            <label for="features">Блок приемуществ</label>
+            <input type="checkbox" name="news" id="news">
+            <label for="news">Новости</label>
+            <input type="checkbox" name="gallery" id="gallery">
+            <label for="gallery">Галерея</label>
+            <input type="checkbox" name="basket" id="basket">
+            <label for="basket">Корзина</label>
+          </div>
+        </form>
+      </aside>
+      <section class="showcase">
+        <div class="showcase-sort">
+          <span class="showcase-sort-title">Сортировать:</span>
+          <a class="active" href="#" id="sort-by-price">по цене</a>
+          <a href="#" id="sort-by-type">по типу</a>
+          <a href="#" id="sort-by-func">по функционалу</a>
+          <i class="icon-down-dir active"></i>
+          <i class="icon-up-dir"></i>
+        </div>
+        <div class="showcase-items">
+          <div class="showcase-item">
+            <div class="showcase-item-image"><img src="img/item-image-1.jpg" alt="" width="240" height="240"></div>
+            <div class="showcase-item-content">
+              <div class="showcase-item-title">Sunset </div>
+              <div class="showcase-item-description">Интернет-магазин с личным  кабинетом</div>
+              <a href="" class="btn">10 000 р.</a>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <div class="showcase-item-image"><img src="img/item-image-2.jpg" alt="" width="240" height="240"></div>
+            <div class="showcase-item-content">
+              <div class="showcase-item-title">Sunset </div>
+              <div class="showcase-item-description">Интернет-магазин с личным  кабинетом</div>
+              <a href="" class="btn">10 000 р.</a>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <div class="showcase-item-image"><img src="img/item-image-3.jpg" alt="" width="240" height="240"></div>
+            <div class="showcase-item-content">
+              <div class="showcase-item-title">Sunset </div>
+              <div class="showcase-item-description">Интернет-магазин с личным  кабинетом</div>
+              <a href="" class="btn">10 000 р.</a>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <div class="showcase-item-image"><img src="img/item-image-4.jpg" alt="" width="240" height="240"></div>
+            <div class="showcase-item-content">
+              <div class="showcase-item-title">Sunset </div>
+              <div class="showcase-item-description">Интернет-магазин с личным  кабинетом</div>
+              <a href="" class="btn">10 000 р.</a>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <div class="showcase-item-image"><img src="img/item-image-5.jpg" alt="" width="240" height="240"></div>
+            <div class="showcase-item-content">
+              <div class="showcase-item-title">Sunset </div>
+              <div class="showcase-item-description">Интернет-магазин с личным  кабинетом</div>
+              <a href="" class="btn">10 000 р.</a>
+            </div>
+          </div>
+          <div class="showcase-item">
+            <div class="showcase-item-image"><img src="img/item-image-6.jpg" alt="" width="240" height="240"></div>
+            <div class="showcase-item-content">
+              <div class="showcase-item-title">Sunset </div>
+              <div class="showcase-item-description">Интернет-магазин с личным  кабинетом</div>
+              <a href="" class="btn">10 000 р.</a>
+            </div>
+          </div>
+        </div>
+        <div class="showcase-paginator">
+          <span class="active" href="#1">1</span>
+          <a href="#2">2</a>
+          <a href="#3">3</a>
+          <a href="#4">4</a>
+          <a href="#next">Следующая</a>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <section class="map" id="map">
+      <div class="container clearfix">
+        <div class="map-contacts">
+          <div class="map-contacts-title"><span>N&#203;RDS</span> DESIGN STUDIO</div>
+          <p>360000, Краснодар
+            <br> ул. Горького, 200</p>
+          <p>тел: + 7 (861) 275-75-75</p>
+          <a href="#" class="btn">Напишите нам</a>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container clearfix">
+        <div class="footer-social">
+          <a href="#" class="social-btn social-btn-vk"><i class="icon-vk"></i>Вконтакте</a>
+          <a href="#" class="social-btn social-btn-fb"><i class="icon-facebook"></i>Фейсбук</a>
+          <a href="#" class="social-btn social-btn-inst"><i class="icon-instagramm"></i>Инстаграмм</a>
+        </div>
+        <div class="footer-content">
+          <div class="footer-content-title">Давайте дружить, это выгодно!</div>
+          <p>Скидка 10% для друзей из сщциальных сетей.</p>
+        </div>
+      </div>
+    </section>
+  </footer>
+  
+    <div class="modal-content">
+    <form action="/echo" method="post">
+      <label><span>Ваше имя:</span>
+      <input class="" type="text" id="name" placeholder="Представьтесь пожалуйста">
+      </label>
+      <label><span>Ваш e-mail:</span>
+      <input class="" type="email" id="email" placeholder="Для отправки ответа">
+      </label>
+      <label><span>Тексе письма:</span>
+      <textarea name="text" id="text" cols="30" rows="5" placeholder="В свободной форме"></textarea>
+      </label>
+      <button class="btn submit" type="submit">Отправить</button>
+      <button class="btn cancel" type="button">Отмена</button>
+    </form>
+  </div>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
